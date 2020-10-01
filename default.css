@@ -46,6 +46,10 @@ a{
 	color:#17a2b8;
 }
 
+a:hover{
+color:blue;
+}
+
 ul{
 	list-style: none;
 }
