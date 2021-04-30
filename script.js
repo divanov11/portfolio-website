@@ -37,10 +37,10 @@ function setTheme(mode){
 	}
 	
 	
-        if(mode == 'yellow'){
+       
 
-		document.getElementById('theme-style').href = 'yellow.css'	
-	}
+		 
+	
 	
 
 	
