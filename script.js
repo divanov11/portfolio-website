@@ -38,3 +38,17 @@ function setTheme(mode){
 
 	localStorage.setItem('theme', mode)
 }
+
+function aos_init() {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false
+    });
+  }
+  window.addEventListener('load', () => {
+    aos_init();
+  });
+// Add this to whatever container you want to perform data aos
+// data-aos="fade-up" 
