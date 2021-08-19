@@ -413,7 +413,21 @@ h6 { font-size: 16px;}
 	.right-column{
 		justify-content: center;
 	}
-
+	.wrapper
+	{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.dynamic-txts li
+	{
+		font-size: 55px;
+	}
+	.static-txt
+	{
+		align-self: center;
+		font-size: 55px;
+	}
 }
 
 @media screen and (max-width: 400px){
