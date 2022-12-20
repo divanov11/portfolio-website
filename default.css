@@ -353,6 +353,9 @@ h6 { font-size: 16px;}
 	height:180px;
 	object-fit: cover;
 }
+.thumbnailExcept{
+	object-fit: scale-down !important;
+}
 
 .post-preview{
 	background-color: #fff;
