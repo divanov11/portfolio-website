@@ -39,7 +39,6 @@ h1, h2, h3, h4, h5, h6, strong{
 p, li, span, label, input, textarea{
 	color: var(--secondaryText);
 	font-family: 'Arvo', monospace;
-	line-height: 28px;
 }
 
 a{
@@ -70,9 +69,6 @@ h6 { font-size: 16px;}
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
 }
-
-
-
 
 .main-container{
 	width: 1200px;
@@ -167,8 +163,28 @@ h6 { font-size: 16px;}
 .left-column{
 	grid-area: left-column;
 	padding-top:50px;
-	padding-bottom: 50px;
+	padding-bottom: 5px;
 }
+.left-column h5{ 
+	text-align: center;
+	padding-top: 5px;
+}
+.left-column h4{
+	text-align: center;
+	/* padding: 5px; */
+}
+#linkedinIcon {
+	width: 20px;
+	height: 20px;
+}
+.socialLink {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.socialLink a{
+	padding: 0 5px;
+} 
 
 #profile_pic{
 	display: block;
@@ -234,7 +250,6 @@ h6 { font-size: 16px;}
 	grid-area: right-column;
 	display: grid;
 	align-content: center;
-
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -302,15 +317,19 @@ h6 { font-size: 16px;}
 	background-color: var(--previewShadow);
 }
 
-.social-links{
+.reco-links{
 	display: grid;
 	align-content: center;
 	text-align: center;
+	overflow: hidden;
 }
 
-#social_img{
+.social_img img{
 	width: 100%;
+	height: 300px;
+	object-fit: contain;
 }
+
 
 
 .post-wrapper{
@@ -333,6 +352,9 @@ h6 { font-size: 16px;}
 	width: 100%;
 	height:180px;
 	object-fit: cover;
+}
+.thumbnailExcept{
+	object-fit: scale-down !important;
 }
 
 .post-preview{
