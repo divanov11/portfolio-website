@@ -19,7 +19,7 @@
 }
 
 
-html, body{
+*{
 	padding: 0;
 	margin: 0;
 	scroll-behavior: smooth;
@@ -61,13 +61,13 @@ h6 { font-size: 16px;}
 .s1{
 	background-color: var(--mainColor);
 	border-bottom:1px solid var(--borderColor);
-	overflow:auto;
+
 }
 
 .s2{
 	background-color: var(--secondaryColor);
 	border-bottom:1px solid var(--borderColor);
-	overflow:auto;
+
 }
 
 
